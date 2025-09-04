@@ -9,7 +9,7 @@ export default function Home() {
   const [loadingCV, setLoadingCV] = useState(false);
   const [loadingEmail, setLoadingEmail] = useState(false);
 
-  const API_BASE = "http://localhost:8001";
+  const API_BASE = "http://193.203.163.116:8001";
 
   const askCV = async () => {
     if (!question.trim()) return setCvResponse("Please enter a question.");
